@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Echoes of the Forest</title>
+
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Lora:wght@400;700&family=Roboto:wght@400;500&display=swap" rel="stylesheet">
+
+    <style>
+        /* Reset default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body, html {
+            height: 100%;
+            font-family: 'Roboto', sans-serif;
+            background: #f0f0f0;
+        }
+
+        /* Book cover container */
+        .book-cover {
+            width: 400px;
+            height: 650px;
+            margin: 50px auto;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+            position: relative;
+            color: white;
+            text-align: center;
+            background: url('https://images.unsplash.com/photo-1506744038136-46273834b3fb?auto=format&fit=crop&w=800&q=80') 
+                        center/cover no-repeat;
+            padding: 20px;
+        }
+
+        /* Overlay for better text readability */
+        .overlay {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0,0,0,0.4);
+        }
+
+        /* Title styling */
+        .title {
+            position: absolute;
+            top: 25%;
+            width: 100%;
+            font-size: 42px;
+            font-family: 'Great Vibes', cursive;
+            background: linear-gradient(45deg, #a8e063, #56ab2f);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            font-weight: bold;
+            padding: 0 20px;
+            text-shadow: 2px 2px 6px rgba(0,0,0,0.5);
+        }
+
+        /* Subtitle styling */
+        .subtitle {
+            position: absolute;
+            top: 42%;
+            width: 100%;
+            font-size: 20px;
+            font-family: 'Lora', serif;
+            color: #f0f8ff;
+            text-shadow: 1px 1px 4px rgba(0,0,0,0.6);
+        }
+
+        /* Description styling */
+        .description {
+            position: absolute;
+            top: 50%;
+            width: 90%;
+            left: 5%;
+            font-size: 14px;
+            line-height: 1.6;
+            text-align: center;
+            font-family: 'Roboto', sans-serif;
+            color: #d0f0c0;
+            text-shadow: 1px 1px 3px rgba(0,0,0,0.5);
+        }
+
+        /* Author section */
+        .author {
+            position: absolute;
+            bottom: 20px;
+            left: 20px;
+            display: flex;
+            align-items: center;
+        }
+
+        /* Author image */
+        .author-img {
+            width: 60px;
+            height: 60px;
+            border-radius: 50%;
+            border: 2px solid #fff;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.6);
+            margin-right: 10px;
+        }
+
+        /* Author name */
+        .author span {
+            font-size: 18px;
+            font-family: 'Lora', serif;
+            font-style: italic;
+            color: #fff8dc;
+            text-shadow: 1px 1px 4px rgba(0,0,0,0.7);
+        }
+    </style>
+</head>
+<body>
+    <div class="book-cover">
+        <div class="overlay"></div>
+        <div class="title">Echoes of the Forest</div>
+        <div class="subtitle">A Journey Through Nature</div>
+        <div class="description">
+            Discover the beauty and serenity of the natural world. Journey through lush forests, 
+            flowing rivers, and endless horizons, and reconnect with the rhythms of Earth. 
+            Let the whispers of nature inspire your mind and soul.
+        </div>
+        <div class="author">
+            <img src="Screenshot 2025-09-23 192430.png" alt="Aisling O’Rourke" class="author-img">
+            <span>by Aisling O’Rourke</span>
+        </div>
+    </div>
+</body>
+</html>
