@@ -26,8 +26,9 @@ Validate the HTML code.
 Publish the website in the given URL.
 
 # PROGRAM:
-```
+
 index.html
+```
 <!DOCTYPE html>
 <html>
 <head>
@@ -58,9 +59,10 @@ index.html
 </body>
 </html>
 ```
-```
+
 
 menu.html
+```
 
 <!DOCTYPE html>
 <html>
@@ -105,8 +107,9 @@ menu.html
 </body>
 </html>
 ```
-```
+
 admin.html
+```
 
 <!DOCTYPE html>
 <html>
@@ -144,8 +147,9 @@ admin.html
 </body>
 </html>
 ```
-```
+
 contact.html
+```
 
 <!DOCTYPE html>
 <html>
