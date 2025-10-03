@@ -1,0 +1,90 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #fff7f5;
+    color: #333;
+}
+header {
+    background-color: #b33a3a; /* Primary color */
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+nav {
+    background-color: #333;
+    text-align: center;
+}
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 0 15px;
+    padding: 8px;
+    display: inline-block;
+}
+nav a:hover {
+    background-color: #f2c57c; /* Accent color */
+    color: #333;
+}
+section {
+    padding: 40px;
+    text-align: center;
+}
+h2 {
+    color: #b33a3a;
+    font-style:oblique;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.menu-grid, .team-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    max-width: 1000px;
+    margin: 20px auto;
+    text-align: center;
+}
+.card {
+    background-color: white;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+    font-style: italic;
+    color:#b33a3a;
+    text-shadow:#f2c57c;
+}
+.card img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 25px;
+    align-items: center;
+    border: #f2c57c;
+    
+}
+footer {
+    background-color:#333;
+    color: white;
+    
+    text-align: center;
+    padding: 15px;
+}
+contact-container {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: left;
+            padding: 20px;
+            background-color: white;
+            border-radius: 12px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+        }
+        .contact-container h2 {
+            text-align: center;
+            color: #b33a3a;
+        }
+        .contact-container p {
+            font-size: 18px;
+            margin: 10px 0;
+        }
+        .contact-container b {
+            color: #b33a3a;
+        }
+
