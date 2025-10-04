@@ -162,7 +162,7 @@ menu.html
 <html>
 <head>
     <meta charset="UTF-8">
-    <title>La Mesa - Menu</title>
+    <title>Buhari - Menu</title>
     <link rel="stylesheet" href="index.css">
 </head>
 <body>
